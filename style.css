@@ -1,8 +1,28 @@
-nav {
-    background-color: rgb(116,125,141);
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
 }
 
-#header{
+h1, h2, h3 {
+    font-family: 'Kalam', cursive;
+}
+
+
+.accent{
+    font-weight: 600;
+}
+
+nav {
+    background-color: rgb(116,125,141);
+    font-weight: 400;
+}
+
+.nav-item {
+    font-size: 1.3rem;
+}
+
+.header{
     background: rgb(238,174,202);
     background: linear-gradient(0deg, rgba(142,154,175,1) 0%, rgba(116,125,141,1) 100%); 
 }
@@ -17,12 +37,10 @@ nav {
     background: linear-gradient(0deg, rgba(239,211,215,1) 0%, rgba(203,192,211,1) 100%);
 }
 
-#cv{
+#experience{
     background: rgb(238,174,202);
     background: linear-gradient(0deg, rgba(254,234,250,1) 0%, rgba(239,211,215,1) 100%);
 }
-
-
 
 #contact{
     background: rgb(238,174,202);
