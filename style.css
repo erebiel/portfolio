@@ -1,13 +1,12 @@
 body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
-    font-size: 1.25em;
+    font-size: 1.35rem;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Kalam', cursive;
 }
-
 
 .accent{
     font-weight: 600;
@@ -19,7 +18,7 @@ h1, h2, h3 {
 }
 
 nav {
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(205, 175, 250, 0.95);
     font-weight: 400;
 }
 
@@ -27,27 +26,40 @@ nav {
     font-size: 1.3rem;
 }
 
-.header{
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(142,154,175,1) 0%, rgba(116,125,141,1) 100%); 
+label{
+    font-size: 1rem;
+}
+
+.btn-blue {
+    background-color: rgb(205, 175, 250);
+}
+
+#header{
+    background: white;
+    background: linear-gradient(0deg, rgba(220, 198, 254, 1) 0%, rgba(205, 175, 250, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(142,154,175,1) 0%, rgba(116,125,141,1) 100%); */
 }
 
 #apropos{
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(203,192,211,1) 0%, rgba(142,154,175,1) 100%); 
+    background: white;
+    background: linear-gradient(0deg, rgba(237, 229, 250, 1) 0%, rgba(220, 198, 254, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(203,192,211,1) 0%, rgba(142,154,175,1) 100%); */
 }
 
 #realisations{
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(239,211,215,1) 0%, rgba(203,192,211,1) 100%);
+    background: white;
+    background: linear-gradient(0deg, rgba(230, 223, 241, 1) 0%, rgba(237, 229, 250, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(239,211,215,1) 0%, rgba(203,192,211,1) 100%); */
 }
 
 #experience{
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(254,234,250,1) 0%, rgba(239,211,215,1) 100%);
+    background: white;
+    background: linear-gradient(0deg, rgba(229, 215, 250, 1) 0%, rgba(230, 223, 241, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(254,234,250,1) 0%, rgba(239,211,215,1) 100%); */
 }
 
 #contact{
-    background: rgb(238,174,202);
-    background: linear-gradient(0deg, rgba(222,226,255,1) 0%, rgba(254,234,250,1) 100%);
+    background: white;
+    background: linear-gradient(0deg, rgba(231, 219, 250, 1) 0%, rgba(229, 215, 250, 1) 100%);
+    /* background: linear-gradient(0deg, rgba(222,226,255,1) 0%, rgba(254,234,250,1) 100%); */
 }
