@@ -25,7 +25,7 @@
 }
 
 .home-name-last {
-  color: #7d28ad;
+  color: #c02da8;
   font-weight: 700;
 }
 
@@ -147,7 +147,7 @@
 }
 
 .nav .menu-nav-item.active > a {
-  color: #7d28ad;
+  color: #c02da8;
 }
 
 .nav .menu-nav-link {
@@ -155,13 +155,13 @@
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 1.5rem 0;
-  font-weight: 300;
+  font-weight: 400;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
 .nav .menu-nav-link:hover {
-  color: #7d28ad;
+  color: #c02da8;
 }
 
 .menu-nav-item:nth-child(1) {
@@ -235,7 +235,7 @@
 .about .jobs-job {
   background: #545454;
   padding: 0.5rem;
-  border-bottom: 5px solid #7d28ad;
+  border-bottom: 5px solid #c02da8;
 }
 
 .about .jobs-job h2, .about .jobs-job h3 {
@@ -303,7 +303,7 @@
 
 .projects-item {
   position: relative;
-  border-bottom: 5px solid #7d28ad;
+  border-bottom: 5px solid #c02da8;
   overflow: hidden;
   cursor: pointer;
 }
@@ -319,7 +319,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #7d28ad;
+  background: #c02da8;
   opacity: 0;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -488,7 +488,7 @@ a {
 }
 
 .text-secondary {
-  color: #7d28ad;
+  color: #c02da8;
 }
 
 header {
@@ -516,7 +516,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #7d28ad;
+  color: #c02da8;
 }
 
 footer {
