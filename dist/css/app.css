@@ -191,8 +191,8 @@
 .about-bio-img {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#3a3a3a), to(rgba(58, 58, 58, 0.5))), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center top;
-  background: linear-gradient(to right, #3a3a3a, rgba(58, 58, 58, 0.5)), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(#3a3a3a), to(rgba(58, 58, 58, 0.5))), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center bottom;
+  background: linear-gradient(to right, #3a3a3a, rgba(58, 58, 58, 0.5)), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center bottom;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -268,8 +268,8 @@
 .projects-bio-img {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(#3a3a3a), to(rgba(58, 58, 58, 0.5))), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center top;
-  background: linear-gradient(to right, #3a3a3a, rgba(58, 58, 58, 0.5)), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center top;
+  background: -webkit-gradient(linear, left top, right top, from(#3a3a3a), to(rgba(58, 58, 58, 0.5))), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center bottom;
+  background: linear-gradient(to right, #3a3a3a, rgba(58, 58, 58, 0.5)), url("../img/john-schnobrich-FlPc9_VocJ4-unsplash.jpg") center bottom;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
