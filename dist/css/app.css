@@ -235,7 +235,7 @@
 .about .jobs-job {
   background: #545454;
   padding: 0.5rem;
-  border-bottom: 5px solid #db89fc;
+  border-left: 10px solid #db89fc;
 }
 
 .about .jobs-job h2, .about .jobs-job h3 {
