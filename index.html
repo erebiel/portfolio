@@ -17,52 +17,50 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <div class="container-fluid container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#apropos">À propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#realisations">Réalisations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Expérience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
-            <div class="container-fluid container">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#apropos">À propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#realisations">Réalisations</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experience">Expérience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+
+        <div class="container pt-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1">Salut, moi c'est Isabelle</h1>
+                    <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
+                            class="accent">développeuse web</span>. J'aime les chats, le café sucré,
+                        trouver le&nbsp;; qui manque, la pluie, chercher sur le site de l'OQLF, mais surtout
+                        <span class="accent">j'aime&nbsp;apprendre</span>.</p>
+
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="rounded-lg-3" src="john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="" width="720">
                 </div>
             </div>
-        </nav>
-
-        <section id="header">
-            <div class="container pt-5">
-                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
-                    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                        <h1 class="display-4 fw-bold lh-1">Bonjour, moi c'est Isabelle</h1>
-                        <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
-                                class="accent">développeuse web</span>. J'aime les chats, le café sucré,
-                            trouver le&nbsp;; qui manque, la pluie, les règles typographiques, mais surtout
-                            <span class="accent">j'aime&nbsp;apprendre</span>.</p>
-
-                    </div>
-                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                        <img class="rounded-lg-3" src="john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="" width="720">
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
 
     </header>
     <main>
@@ -242,7 +240,7 @@
         </section>
     </main>
 
-    <div class="container">
+    <div id="footer" class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">

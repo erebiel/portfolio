@@ -2,6 +2,7 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
     font-size: 1.35rem;
+    background: rgb(116,125,141);;
 }
 
 h1, h2 {
@@ -18,7 +19,7 @@ h1, h2 {
 }
 
 nav {
-    background-color: rgba(231, 219, 250, 0.95);
+    background-color: rgba(222,226,255, 1);
     font-weight: 400;
 }
 
@@ -34,27 +35,31 @@ label{
     background-color: rgb(231, 219, 250);
 }
 
-#header{
+header{
     background: white;
-    background: linear-gradient(0deg, rgba(142,154,175,1) 0%, rgba(116,125,141,1) 100%);
+    background: linear-gradient(0deg, rgba(254,234,250,1) 0%, rgba(222,226,255,1) 100%); 
 }
 
 #apropos{
     background: white;
-    background: linear-gradient(0deg, rgba(203,192,211,1) 0%, rgba(142,154,175,1) 100%);
+    background: linear-gradient(0deg, rgba(239,211,215,1) 0%, rgba(254,234,250,1) 100%); 
 }
 
 #realisations{
     background: white;
-    background: linear-gradient(0deg, rgba(239,211,215,1) 0%, rgba(203,192,211,1) 100%);
+    background: linear-gradient(0deg, rgba(203,192,211,1) 0%, rgba(239,211,215,1) 100%);
 }
 
 #experience{
     background: white;
-    background: linear-gradient(0deg, rgba(254,234,250,1) 0%, rgba(239,211,215,1) 100%);
+    background: linear-gradient(0deg, rgba(142,154,175,1) 0%, rgba(203,192,211,1) 100%);
 }
 
 #contact{
     background: white;
-    background: linear-gradient(0deg, rgba(222,226,255,1) 0%, rgba(254,234,250,1) 100%);
+    background: linear-gradient(0deg, rgba(116,125,141,1) 0%, rgba(142,154,175,1) 100%);
+}
+
+#footer{
+    background-color: rgb(116,125,141);
 }
