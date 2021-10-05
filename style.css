@@ -65,9 +65,17 @@ header{
 }
 
 i{
-    color: rgb(254,234,250);
+    color: rgb(142,154,175);
 }
 
 i:hover{
+    color: rgb(116,125,141);
+}
+
+footer i{
+    color: rgb(254,234,250);
+}
+
+footer i:hover{
     color: rgb(222,226,255);
 }
