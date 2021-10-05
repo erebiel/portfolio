@@ -63,3 +63,11 @@ header{
 #footer{
     background-color: rgb(116,125,141);
 }
+
+i{
+    color: rgb(254,234,250);
+}
+
+i:hover{
+    color: rgb(222,226,255);
+}
