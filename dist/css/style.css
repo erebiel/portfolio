@@ -2,7 +2,7 @@ body {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
   font-size: 1.35rem;
-  background: #747d8d;
+  background: #827081;
 }
 
 h1, h2 {
@@ -11,6 +11,7 @@ h1, h2 {
 
 .accent {
   font-weight: 600;
+  color: #88597b;
 }
 
 .card {
@@ -19,7 +20,7 @@ h1, h2 {
 }
 
 nav {
-  background-color: #dee2ff;
+  background-color: #e5dbe8;
   font-weight: 400;
 }
 
@@ -27,61 +28,78 @@ nav {
   font-size: 1.3rem;
 }
 
+.nav-item:hover {
+  color: #88597b;
+}
+
+a {
+  color: #827081;
+}
+
+a:hover {
+  color: #88597b;
+}
+
 label {
   font-size: 1rem;
 }
 
 .btn-blue {
-  background-color: #e7dbfa;
+  background-color: #e3d0d8;
+}
+
+.btn-blue:hover {
+  background-color: #e5dbe8;
 }
 
 header {
   background: white;
-  background: -webkit-gradient(linear, left bottom, left top, from(#feeafa), to(#dee2ff));
-  background: linear-gradient(0deg, #feeafa 0%, #dee2ff 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#e3d0d8), to(#e5dbe8));
+  background: linear-gradient(0deg, #e3d0d8 0%, #e5dbe8 100%);
 }
 
 #apropos {
   background: white;
-  background: -webkit-gradient(linear, left bottom, left top, from(#efd3d7), to(#feeafa));
-  background: linear-gradient(0deg, #efd3d7 0%, #feeafa 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#c9bac4), to(#e3d0d8));
+  background: linear-gradient(0deg, #c9bac4 0%, #e3d0d8 100%);
 }
 
 #realisations {
   background: white;
-  background: -webkit-gradient(linear, left bottom, left top, from(#cbc0d3), to(#efd3d7));
-  background: linear-gradient(0deg, #cbc0d3 0%, #efd3d7 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#aea3b0), to(#c9bac4));
+  background: linear-gradient(0deg, #aea3b0 0%, #c9bac4 100%);
 }
 
 #experience {
   background: white;
-  background: -webkit-gradient(linear, left bottom, left top, from(#8e9aaf), to(#cbc0d3));
-  background: linear-gradient(0deg, #8e9aaf 0%, #cbc0d3 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#988a99), to(#aea3b0));
+  background: linear-gradient(0deg, #988a99 0%, #aea3b0 100%);
 }
 
 #contact {
   background: white;
-  background: -webkit-gradient(linear, left bottom, left top, from(#747d8d), to(#8e9aaf));
-  background: linear-gradient(0deg, #747d8d 0%, #8e9aaf 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#827081), to(#988a99));
+  background: linear-gradient(0deg, #827081 0%, #988a99 100%);
 }
 
 #footer {
-  background-color: #747d8d;
+  color: #e5dbe8;
+  background-color: #827081;
 }
 
 i {
-  color: #8e9aaf;
+  color: #988a99;
 }
 
 i:hover {
-  color: #747d8d;
+  color: #827081;
 }
 
 footer i {
-  color: #feeafa;
+  color: #e3d0d8;
 }
 
 footer i:hover {
-  color: #dee2ff;
+  color: #e5dbe8;
 }
 /*# sourceMappingURL=style.css.map */
