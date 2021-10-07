@@ -1,0 +1,87 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 1.35rem;
+  background: #747d8d;
+}
+
+h1, h2 {
+  font-family: 'Kalam', cursive;
+}
+
+.accent {
+  font-weight: 600;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+nav {
+  background-color: #dee2ff;
+  font-weight: 400;
+}
+
+.nav-item {
+  font-size: 1.3rem;
+}
+
+label {
+  font-size: 1rem;
+}
+
+.btn-blue {
+  background-color: #e7dbfa;
+}
+
+header {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#feeafa), to(#dee2ff));
+  background: linear-gradient(0deg, #feeafa 0%, #dee2ff 100%);
+}
+
+#apropos {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#efd3d7), to(#feeafa));
+  background: linear-gradient(0deg, #efd3d7 0%, #feeafa 100%);
+}
+
+#realisations {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#cbc0d3), to(#efd3d7));
+  background: linear-gradient(0deg, #cbc0d3 0%, #efd3d7 100%);
+}
+
+#experience {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#8e9aaf), to(#cbc0d3));
+  background: linear-gradient(0deg, #8e9aaf 0%, #cbc0d3 100%);
+}
+
+#contact {
+  background: white;
+  background: -webkit-gradient(linear, left bottom, left top, from(#747d8d), to(#8e9aaf));
+  background: linear-gradient(0deg, #747d8d 0%, #8e9aaf 100%);
+}
+
+#footer {
+  background-color: #747d8d;
+}
+
+i {
+  color: #8e9aaf;
+}
+
+i:hover {
+  color: #747d8d;
+}
+
+footer i {
+  color: #feeafa;
+}
+
+footer i:hover {
+  color: #dee2ff;
+}
+/*# sourceMappingURL=style.css.map */
