@@ -261,7 +261,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
                     <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
                         ensemble. </p>
-                    <form id="contactform" action="index.php" method="POST">
+                    <form id="contactform" action="index.php#contact" method="POST">
                         <div class="row">
                             <div class="mb-4 col-6">
                                 <label for="name" class="form-control-label fw-bold">Votre nom</label>
