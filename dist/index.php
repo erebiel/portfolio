@@ -1,7 +1,43 @@
+<?php
+
+$message_sent = false;
+if(isset($_POST['email']) && $_POST['email'] != ''){
+    if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)){
+        //Submit the form
+        $userName = $_POST['name'];
+        $userEmail = $_POST['email'];
+        $userMsg = $_POST['msg'];
+
+        $to = "isa@isasicotte.ca";
+        $subject = "Contact de mon portfolio";
+
+        $body = "";
+        $body .= "De : ".$userName. "\r\n";
+        $body .= "Courriel : ".$userEmail. "\r\n";
+        $body .= "Message : ".$userMsg. "\r\n";
+
+        mail($to, $subject, $body);
+
+        $message_sent = true;
+    } 
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="fr">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121981593-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-121981593-1');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -212,9 +248,20 @@
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3"><a id="contact"></a>Contact</h2>
+                    
+
+                        <?php 
+                            if($message_sent):
+                        ?>
+                        <h3>Merci, votre message a bien été envoyé.</h3>
+
+                        <?php 
+                            else:
+                        ?>
+
                     <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
                         ensemble. </p>
-                    <form id="contactform" action="">
+                    <form id="contactform" action="index.php" method="POST">
                         <div class="row">
                             <div class="mb-4 col-6">
                                 <label for="name" class="form-control-label fw-bold">Votre nom</label>
@@ -234,6 +281,9 @@
                             <button class="btn btn-blue btn-lg">Envoyer</button>
                         </div>
                     </form>
+                    <?php 
+                        endif;
+                    ?>
                 </div>
             </div>
         </section>
