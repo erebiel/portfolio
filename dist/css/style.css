@@ -95,11 +95,19 @@ i:hover {
   color: #827081;
 }
 
-footer i {
+#footer i {
   color: #e3d0d8;
 }
 
-footer i:hover {
+#footer i:hover {
+  color: #e5dbe8;
+}
+
+#contact i {
+  color: #e3d0d8;
+}
+
+#contact i:hover {
   color: #e5dbe8;
 }
 /*# sourceMappingURL=style.css.map */

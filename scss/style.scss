@@ -94,10 +94,18 @@ i:hover{
     color: $bg-color6;
 }
 
-footer i{
+#footer i{
     color: $bg-color2;
 }
 
-footer i:hover{
+#footer i:hover{
+    color: $bg-color1;
+}
+
+#contact i{
+    color: $bg-color2;
+}
+
+#contact i:hover{
     color: $bg-color1;
 }

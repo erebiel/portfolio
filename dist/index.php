@@ -98,9 +98,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <li class="ms-3"><a href="https://twitter.com/erebiel" target="_blank"><i
                                     class="bi bi-twitter"></i></a>
                         </li>
-
                     </ul>
-
                 </div>
                 <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
                     <img class="rounded-lg-3" src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" alt="" width="720">
@@ -248,7 +246,15 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3"><a id="contact"></a>Contact</h2>
-                    
+                    <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
+                        ensemble. Vous pouvez le faire via les médias sociaux ou le formulaire de contact ci-bas.</p>
+                    <ul class="nav list-unstyled display-5">
+                        <li class="ms-3"><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a></li>
+                        <li class="ms-3"><a href="https://www.linkedin.com/in/isabelle-sicotte/" target="_blank"><i
+                            class="bi bi-linkedin"></i></a></li>
+                        <li class="ms-3"><a href="https://twitter.com/erebiel" target="_blank"><i class="bi bi-twitter"></i></a></li>
+                    </ul>
+                        
 
                         <?php 
                             if($message_sent):
@@ -259,8 +265,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             else:
                         ?>
 
-                    <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
-                        ensemble. </p>
+                    
                     <form id="contactform" action="index.php#contact" method="POST">
                         <div class="row">
                             <div class="mb-4 col-6">
