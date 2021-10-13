@@ -266,19 +266,19 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         ?>
 
                     
-                    <form id="contactform" action="index.php#contact" method="POST">
+                    <form id="contactform" action="index.php#contact" method="POST" class="needs-validation" novalidate>
                         <div class="row">
                             <div class="mb-4 col-6">
                                 <label for="name" class="form-control-label fw-bold">Votre nom</label>
-                                <input type=" text" class="form-control" name="name" id="name">
+                                <input type=" text" class="form-control" name="name" id="name" required>
                             </div>
                             <div class="mb-4 col-6">
                                 <label for="email" class="form-control-label fw-bold">Votre courriel</label>
-                                <input type="email" class="form-control" name="email" id="email">
+                                <input type="email" class="form-control" name="email" id="email" required>
                             </div>
                             <div class="mb-4 col-12">
                                 <label for="msg" class="form-control-label fw-bold">Votre message</label>
-                                <textarea class="form-control" name="msg" id="msg"></textarea>
+                                <textarea class="form-control" name="msg" id="msg" required></textarea>
                             </div>
 
                         </div>
@@ -315,6 +315,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
+    <script src="js/formvalidation.js"></script>
 </body>
 
 </html>
