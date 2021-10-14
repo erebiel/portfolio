@@ -133,80 +133,42 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
         <section id="realisations">
             <div class="container px-4 py-5">
-                <div class="row align-items-center g-lg-5 py-5">
+                <div class="row g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3"><a id="realisations"></a>Réalisations</h2>
                     <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
+                        <img src="images/project_yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title fw-bold">YelpCamp</h5>
+                            <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
-                        </div>
-                    </div>
-                    <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
+                            <a href="https://young-wave-24039.herokuapp.com/" class="card-link">Lien live</a>
+                            <a href="https://github.com/erebiel/yelpcamp" class="card-link">Lien Github</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title fw-bold">Djoo</h5>
+                            <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
+                            <a href="https://github.com/erebiel/djoo" class="card-link">Lien Github</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
+                            <h5 class="card-title fw-bold">Portfolio</h5>
+                            <p class="card-text">HTML5, Bootstrap, SASS</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
+                            <a href="https://isasicotte.ca" class="card-link">Lien live</a>
+                            <a href="https://github.com/erebiel/portfolio" class="card-link">Lien Github</a>
                         </div>
                     </div>
-                    <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
-                        </div>
-                    </div>
-                    <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Réalisation 1</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="#" class="card-link">Lien github</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
