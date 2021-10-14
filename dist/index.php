@@ -142,8 +142,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
-                            <a href="https://young-wave-24039.herokuapp.com/" class="card-link">Lien live</a>
-                            <a href="https://github.com/erebiel/yelpcamp" class="card-link">Lien Github</a>
+                            <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
+                            <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">Lien Github</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
@@ -154,7 +154,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         </div>
                         <div class="card-body">
                             <a href="#" class="card-link">Lien live</a>
-                            <a href="https://github.com/erebiel/djoo" class="card-link">Lien Github</a>
+                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">Lien Github</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
@@ -164,8 +164,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <p class="card-text">HTML5, Bootstrap, SASS</p>
                         </div>
                         <div class="card-body">
-                            <a href="https://isasicotte.ca" class="card-link">Lien live</a>
-                            <a href="https://github.com/erebiel/portfolio" class="card-link">Lien Github</a>
+                            <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien Github</a>
                         </div>
                     </div>
 
