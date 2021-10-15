@@ -9,12 +9,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         $userMsg = $_POST['msg'];
 
         $to = "isa@isasicotte.ca";
-        $subject = "Contact de mon portfolio";
+        $subject = "Portfolio contact (EN)";
 
         $body = "";
-        $body .= "De : ".$userName. "\r\n";
-        $body .= "Courriel : ".$userEmail. "\r\n";
-        $body .= "Message : ".$userMsg. "\r\n";
+        $body .= "From: ".$userName. "\r\n";
+        $body .= "Email: ".$userEmail. "\r\n";
+        $body .= "Message: ".$userMsg. "\r\n";
 
         mail($to, $subject, $body);
 
@@ -26,7 +26,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -62,22 +62,22 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#apropos">À propos</a>
+                        <a class="nav-link" href="#about">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#realisations">Réalisations</a>
+                        <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experience">Expérience</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item d-flex">
-                        <a class="nav-link" href="index_en.php">EN</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">FR</a>
                     </li>
                 </ul>
             </div>
@@ -88,7 +88,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <div class="container pt-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-                    <h1 class="display-4 fw-bold lh-1">Salut, moi c'est Isabelle</h1>
+                    <h1 class="display-4 fw-bold lh-1">Hello! I'm Isabelle</h1>
                     <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
                             class="accent">développeuse web</span>. J'aime les chats, le café sucré,
                         trouver le&nbsp;; qui manque, la pluie, chercher sur le site de l'OQLF, mais surtout
@@ -114,7 +114,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="apropos">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="apropos"></a>À propos</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="about"></a>About me</h2>
                     <p>J’aime faire partie d’une équipe et sentir que j’y fait une différence, que
                         j’apporte quelque chose d’unique et d’essentiel. J’aime partager mon savoir, mais aussi
                         apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre en continu, c’est
@@ -137,7 +137,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="realisations">
             <div class="container px-4 py-5">
                 <div class="row g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="realisations"></a>Réalisations</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="projects"></a>Projects</h2>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
@@ -178,7 +178,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="experience">
             <div class="container py-5">
                 <div class="row py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="experience"></a>Expérience</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="experience"></a>Experience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
                             Chargée de projet numérique / Gestionnaire des opérations / Webmestre</p>
@@ -225,7 +225,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <?php 
                             if($message_sent):
                         ?>
-                        <h3>Merci, votre message a bien été envoyé.</h3>
+                        <h3>Thank you! Your message have been sent.</h3>
 
                         <?php 
                             else:
@@ -235,21 +235,21 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <form id="contactform" action="index.php#contact" method="POST" class="needs-validation" novalidate>
                         <div class="row">
                             <div class="mb-4 col-6">
-                                <label for="name" class="form-control-label fw-bold">Votre nom</label>
+                                <label for="name" class="form-control-label fw-bold">Your name</label>
                                 <input type=" text" class="form-control" name="name" id="name" required>
                             </div>
                             <div class="mb-4 col-6">
-                                <label for="email" class="form-control-label fw-bold">Votre courriel</label>
+                                <label for="email" class="form-control-label fw-bold">Your email</label>
                                 <input type="email" class="form-control" name="email" id="email" required>
                             </div>
                             <div class="mb-4 col-12">
-                                <label for="msg" class="form-control-label fw-bold">Votre message</label>
+                                <label for="msg" class="form-control-label fw-bold">Your message</label>
                                 <textarea class="form-control" name="msg" id="msg" required></textarea>
                             </div>
 
                         </div>
                         <div class="align-items-center mb-4">
-                            <button class="btn btn-blue btn-lg">Envoyer</button>
+                            <button class="btn btn-blue btn-lg">Send</button>
                         </div>
                     </form>
                     <?php 
