@@ -143,28 +143,28 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         </div>
                         <div class="card-body">
                             <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
-                            <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">Lien Github</a>
+                            <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">Lien GitHub</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
+                        <img src="images/project-djoo.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Djoo</h5>
-                            <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, EJS, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="#" class="card-link">Lien live</a>
-                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">Lien Github</a>
+                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">Lien GitHub</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
-                        <img src="images/john-schnobrich-FlPc9_VocJ4-unsplash.jpg" class="card-img-top" alt="">
+                        <img src="images/project-portfolio.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Portfolio</h5>
                             <p class="card-text">HTML5, Bootstrap, SASS</p>
                         </div>
                         <div class="card-body">
-                            <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien Github</a>
+                            <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien GitHub</a>
                         </div>
                     </div>
 
@@ -180,12 +180,14 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
                             Chargée de projet numérique / Gestionnaire des opérations / Webmestre</p>
                         <ul>
-                            <li>Gestion et participation à 4 refonte de site web</li>
-                            <li>Gestion des projets et des échéanciers dans Asana</li>
-                            <li>Création d’outils de travail pour les membres de l’équipe</li>
+                            <li>Gestion et participation à 4 refontes de site web</li>
                             <li>Intégration des contenus dans Wordpress et autre CMS</li>
                             <li>Graphisme et mise en page de documents corporatifs</li>
+                            <li>Gestion des projets et des échéanciers dans Asana</li>
+                            <li>Création d’outils de travail pour les membres de l’équipe</li>
                         </ul>
+                        <p class="py-5"><strong>DEC Techniques d'intégration multimédia</strong><br />
+                            Collège de Maisonneuve, 2006</p>
                     </div>
                     <div class="col-lg-4">
                         <p class="fw-bold">Compétences</p>
