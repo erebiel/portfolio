@@ -91,8 +91,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h1 class="display-4 fw-bold lh-1">Salut, moi c'est Isabelle</h1>
                     <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
                             class="accent">développeuse web</span>. J'aime les chats, le café sucré,
-                        trouver le&nbsp;; qui manque, la pluie, chercher sur le site de l'OQLF, mais surtout
-                        <span class="accent">j'aime&nbsp;apprendre</span>.</p>
+                        trouver le&nbsp;; qui manque, la pluie, mais surtout <span class="accent">j'aime&nbsp;apprendre</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
                         </li>
@@ -124,10 +123,10 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <p>
                         J'ai plus de 13 ans d'expérience en intégration multimédia. J'ai récemment suivi un bootcamp en
                         ligne qui m'a permis de me mettre à jour dans les
-                        différentes pratiques web. J'ai pu développer un projet en <span class="accent">NodeJS</span>,
+                        différentes pratiques web. J'ai pu développer un projet en <span class="accent">Node.js</span>,
                         réviser mes notions en
                         <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec <span
-                            class="accent">gitHub, Bootstrap, MongoDB et
+                            class="accent">GitHub, Bootstrap, MongoDB et
                             EJS</span>.
                     </p>
                 </div>
@@ -142,7 +141,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">YelpCamp</h5>
-                            <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, EJS, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
@@ -164,7 +163,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <img src="images/project-portfolio.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Portfolio</h5>
-                            <p class="card-text">HTML5, Bootstrap, SASS</p>
+                            <p class="card-text">HTML5, Bootstrap, SASS, PHP (envoi de courriel)</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien GitHub</a>
@@ -189,6 +188,9 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <li>Gestion des projets et des échéanciers dans Asana</li>
                             <li>Création d’outils de travail pour les membres de l’équipe</li>
                         </ul>
+                        <p class="py-5"><strong>The Web Developer Bootcamp</strong> de Colt Steele (63,5h)<br />
+                            Udemy, 2021</p>
+
                         <p class="py-5"><strong>DEC Techniques d'intégration multimédia</strong><br />
                             Collège de Maisonneuve, 2006</p>
                     </div>
