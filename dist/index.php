@@ -53,7 +53,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" id="navbar-principale">
         <div class="container-fluid container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
                 aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        <a class="nav-link active" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#apropos">À propos</a>
@@ -113,7 +113,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="apropos">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="apropos"></a>À propos</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">À propos</h2>
                     <p>J’aime faire partie d’une équipe et sentir que j’y fait une différence, que
                         j’apporte quelque chose d’unique et d’essentiel. J’aime partager mon savoir, mais aussi
                         apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre en continu, c’est
@@ -126,8 +126,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         différentes pratiques web. J'ai pu développer un projet en <span class="accent">Node.js</span>,
                         réviser mes notions en
                         <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec <span
-                            class="accent">GitHub, Bootstrap, MongoDB et
-                            EJS</span>.
+                            class="accent">GitHub, Bootstrap, MongoDB, et Express</span>.
                     </p>
                 </div>
             </div>
@@ -136,12 +135,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="realisations">
             <div class="container px-4 py-5">
                 <div class="row g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="realisations"></a>Réalisations</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Réalisations</h2>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">YelpCamp</h5>
-                            <p class="card-text">Node.js, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, Express, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
@@ -152,7 +151,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <img src="images/project-djoo.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Djoo</h5>
-                            <p class="card-text">Node.js, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, Express, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="#" class="card-link">Lien live</a>
@@ -163,7 +162,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <img src="images/project-portfolio.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Portfolio</h5>
-                            <p class="card-text">HTML5, Bootstrap, SASS, PHP (envoi de courriel)</p>
+                            <p class="card-text">HTML5, Bootstrap 5, SASS, PHP&nbsp;(envoi de courriel)</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien GitHub</a>
@@ -177,10 +176,10 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="experience">
             <div class="container py-5">
                 <div class="row py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="experience"></a>Expérience</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Expérience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
-                            Chargée de projet numérique / Gestionnaire des opérations / Webmestre</p>
+                            Gestionnaire des opérations | Intégratrice multimédia</p>
                         <ul>
                             <li>Gestion et participation à 4 refontes de site web</li>
                             <li>Intégration des contenus dans Wordpress et autre CMS</li>
@@ -188,10 +187,10 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <li>Gestion des projets et des échéanciers dans Asana</li>
                             <li>Création d’outils de travail pour les membres de l’équipe</li>
                         </ul>
-                        <p class="py-5"><strong>The Web Developer Bootcamp</strong> de Colt Steele (63,5h)<br />
+                        <p class="py-3"><strong>The Web Developer Bootcamp</strong> de Colt Steele (63,5h)<br />
                             Udemy, 2021</p>
 
-                        <p class="py-5"><strong>DEC Techniques d'intégration multimédia</strong><br />
+                        <p class="py-3"><strong>DEC Techniques d'intégration multimédia</strong><br />
                             Collège de Maisonneuve, 2006</p>
                     </div>
                     <div class="col-lg-4">
@@ -213,7 +212,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="contact">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="contact"></a>Contact</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Contact</h2>
                     <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
                         ensemble. Vous pouvez le faire via les médias sociaux ou le formulaire de contact ci-bas.</p>
                     <ul class="nav list-unstyled display-5">
@@ -251,7 +250,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
                         </div>
                         <div class="align-items-center mb-4">
-                            <button class="btn btn-blue btn-lg">Envoyer</button>
+                            <button class="btn btn-mail btn-lg">Envoyer</button>
                         </div>
                     </form>
                     <?php 
