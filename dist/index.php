@@ -89,9 +89,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">Salut, moi c'est Isabelle</h1>
-                    <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
-                            class="accent">développeuse web</span>. J'aime les chats, le café sucré,
-                        trouver le&nbsp;; qui manque, la pluie, mais surtout <span class="accent">j'aime&nbsp;apprendre</span>.</p>
+                    <p class="lead fs-4">Je suis <span class="accent">intégratrice multimédia</span> et j'aspire à devenir développeuse web. 
+                    J'aime les chats, trouver le&nbsp;; qui manque, les escape games, mais surtout <span class="accent">j'aime&nbsp;apprendre</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
                         </li>
@@ -114,19 +113,18 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3">À propos</h2>
-                    <p>J’aime faire partie d’une équipe et sentir que j’y fait une différence, que
-                        j’apporte quelque chose d’unique et d’essentiel. J’aime partager mon savoir, mais aussi
-                        apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre en continu, c’est
-                        ce qui me fait tripper. J’aime savoir comment les choses fonctionnent,toujours en mode solution,
-                        j’aime trouver les bugs et les fautes d’ortographes!
-                    </p>
-                    <p>
-                        J'ai plus de 13 ans d'expérience en intégration multimédia. J'ai récemment suivi un bootcamp en
-                        ligne qui m'a permis de me mettre à jour dans les
-                        différentes pratiques web. J'ai pu développer un projet en <span class="accent">Node.js</span>,
-                        réviser mes notions en
-                        <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec <span
-                            class="accent">GitHub, Bootstrap, MongoDB, et Express</span>.
+                    <p>Mon intérêt pour le web remonte à l'apogée d'Angelfire et Geocities. J'ai appris le HTML et le CSS avec l'aide de W3School 
+                        à l'époque et j'ai construit mes premiers sites web (avec iframe) qui ne sont pas dignes de se retrouver dans mon portfolio! 
+                        C'est tout de même ce qui m'a poussé vers une formation en <span class="accent">Techniques d'intégration multimédia</span> au Collège de Maisonneuve.
+                        Diplôme en main, j'ai accumulé plus de <span class="accent">13 ans d'expérience</span> sur le milieu du travail en tant qu'intégratrice web et gestionnaire des opérations.</p>
+
+                        <p>J'ai récemment suivi un bootcamp en ligne qui m'a permis de me mettre à jour dans le développement web. J'ai pu développer un projet en 
+                        <span class="accent">Node.js</span>, réviser mes notions en <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec 
+                        <span class="accent">GitHub, Bootstrap 5, MongoDB, et Express</span>.</p>
+
+                        <p>J’aime faire partie d’une équipe et sentir que j’y fait une différence, que j’apporte quelque chose d’unique et d’essentiel. 
+                            J’aime partager mon savoir, mais aussi apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre comment tout fonctionne, 
+                            c’est ce qui me fait tripper. Toujours en mode solution, j’aime trouver les bugs et les fautes d’ortographes.</p>
                     </p>
                 </div>
             </div>
@@ -181,11 +179,11 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
                             Gestionnaire des opérations | Intégratrice multimédia</p>
                         <ul>
-                            <li>Gestion et participation à 4 refontes de site web</li>
-                            <li>Intégration des contenus dans Wordpress et autre CMS</li>
-                            <li>Graphisme et mise en page de documents corporatifs</li>
-                            <li>Gestion des projets et des échéanciers dans Asana</li>
-                            <li>Création d’outils de travail pour les membres de l’équipe</li>
+                            <li>Implantation d'un programme de gestion de tâches (Asana) et gestion des projets et des échéanciers en collaboration avec les gestionnaires et employés</li>
+                            <li>Création d’outils de travail collaboratif pour les membres de l’équipe</li>
+                            <li>Gestion de projet et intégration de 4 refontes de site web</li>
+                            <li>Intégration des contenus dans Wordpress ou autre CMS</li>
+                            <li>Graphisme et mise en page de documents corporatifs (rapport annuel, présentation Powerpoint, etc.)</li>
                         </ul>
                         <p class="py-3"><strong>The Web Developer Bootcamp</strong> de Colt Steele (63,5h)<br />
                             Udemy, 2021</p>
@@ -194,15 +192,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             Collège de Maisonneuve, 2006</p>
                     </div>
                     <div class="col-lg-4">
-                        <p class="fw-bold">Compétences</p>
+                        <p class="fw-bold">Forces et compétences</p>
                         <ul>
-                            <li>Minutieuse
-                            <li>Débrouillarde</li>
-                            <li>Diplomate</li>
-                            <li>Autodidacte</li>
+                            <li>Minutieuse et aptitude pour le contrôle-qualité</li>
                             <li>Organisée et assidue</li>
-                            <li>Grande capacité d’adaptation</li>
-                            <li>Aptitude pour le contrôle-qualité</li>
+                            <li>Débrouillarde et diplomate</li>
+                            <li>Autodidacte et grande capactié d'adaptation</li>
                         </ul>
                     </div>
                 </div>
