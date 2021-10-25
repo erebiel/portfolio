@@ -58,13 +58,13 @@ header {
   background: linear-gradient(0deg, #e3d0d8 0%, #e5dbe8 100%);
 }
 
-#apropos {
+#apropos, #about {
   background: white;
   background: -webkit-gradient(linear, left bottom, left top, from(#c9bac4), to(#e3d0d8));
   background: linear-gradient(0deg, #c9bac4 0%, #e3d0d8 100%);
 }
 
-#realisations {
+#realisations, #projects {
   background: white;
   background: -webkit-gradient(linear, left bottom, left top, from(#aea3b0), to(#c9bac4));
   background: linear-gradient(0deg, #aea3b0 0%, #c9bac4 100%);

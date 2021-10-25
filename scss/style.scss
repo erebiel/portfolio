@@ -61,12 +61,12 @@ header{
     background: linear-gradient(0deg, $bg-color2 0%, $bg-color1 100%); 
 }
 
-#apropos{
+#apropos, #about{
     background: white;
     background: linear-gradient(0deg, $bg-color3 0%, $bg-color2 100%); 
 }
 
-#realisations{
+#realisations, #projects{
     background: white;
     background: linear-gradient(0deg, $bg-color4 0%, $bg-color3 100%);
 }

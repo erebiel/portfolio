@@ -89,10 +89,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">Hello! I'm Isabelle</h1>
-                    <p class="lead fs-4">Je suis intégratrice multimédia et j'aspire à devenir <span
-                            class="accent">développeuse web</span>. J'aime les chats, le café sucré,
-                        trouver le&nbsp;; qui manque, la pluie, chercher sur le site de l'OQLF, mais surtout
-                        <span class="accent">j'aime&nbsp;apprendre</span>.</p>
+                    <p class="lead fs-4">I am a <span class="accent">multimedia integrator</span> and I aspire to become a web developer.
+                    I like cats, finding the missing&nbsp;;, puzzle games, but above all, <span class="accent">I love to learn</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
                         </li>
@@ -111,53 +109,50 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
     </header>
     <main>
-        <section id="apropos">
+        <section id="about">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="about"></a>About me</h2>
-                    <p>J’aime faire partie d’une équipe et sentir que j’y fait une différence, que
-                        j’apporte quelque chose d’unique et d’essentiel. J’aime partager mon savoir, mais aussi
-                        apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre en continu, c’est
-                        ce qui me fait tripper. J’aime savoir comment les choses fonctionnent,toujours en mode solution,
-                        j’aime trouver les bugs et les fautes d’ortographes!
+                    <h2 class="display-5 fw-bold lh-1 mb-3">About me</h2>
+                    <p>My interest in the web goes back to the height of Angelfire and Geocities. I learned HTML and CSS with the help of W3School 
+                        at the time and I built my first websites that are not worthy of being in my portfolio! All the same, it was what pushed me 
+                        towards a formation in <span class="accent">Techniques d'int&eacute;gration multim&eacute;dia</span> at the Coll&egrave;ge de Maisonneuve. 
+                        Diploma in hand, I have accumulated more than <span class="accent">13 years of experience</span> in the workplace as a web integrator and operations manager.
                     </p>
+                    <p>I recently took an online bootcamp which allowed me to get up to speed in web development. I was able to develop a project in <span class="accent">Node.js</span>, 
+                        revise my notions in <span class="accent">HTML5, CSS3 and JavaScript</span>. I also learned to work with <span class="accent">GitHub, Bootstrap 5, MongoDB, and Express</span>.</p>
                     <p>
-                        J'ai plus de 13 ans d'expérience en intégration multimédia. J'ai récemment suivi un bootcamp en
-                        ligne qui m'a permis de me mettre à jour dans les
-                        différentes pratiques web. J'ai pu développer un projet en <span class="accent">NodeJS</span>,
-                        réviser mes notions en
-                        <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec <span
-                            class="accent">gitHub, Bootstrap, MongoDB et
-                            EJS</span>.
+                    I love being part of a team and feeling that I am making a difference, that I am bringing something unique and essential. 
+                    I like to share my knowledge, but also to learn as much as I can from those around me. 
+                    For me, learning how everything works is what I really love. Always in solution mode, I like to find bugs and spelling mistakes.
                     </p>
                 </div>
             </div>
         </section>
 
-        <section id="realisations">
+        <section id="projects">
             <div class="container px-4 py-5">
                 <div class="row g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="projects"></a>Projects</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Projects</h2>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">YelpCamp</h5>
-                            <p class="card-text">Node.JS, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.JS, MongoDB, EJS, deployment on Heroku</p>
                         </div>
                         <div class="card-body">
-                            <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
-                            <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">Lien GitHub</a>
+                            <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Live link</a>
+                            <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-djoo.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Djoo</h5>
-                            <p class="card-text">Node.js, MongoDB, EJS, déploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, EJS, deployment on Heroku</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Lien live</a>
-                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">Lien GitHub</a>
+                            <a href="#" class="card-link">Live link</a>
+                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
                     <div class="card col-lg-4 col-md-6">
@@ -167,7 +162,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <p class="card-text">HTML5, Bootstrap, SASS</p>
                         </div>
                         <div class="card-body">
-                            <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">Lien GitHub</a>
+                            <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
 
@@ -178,30 +173,29 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="experience">
             <div class="container py-5">
                 <div class="row py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="experience"></a>Experience</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Experience</h2>
                     <div class="col-lg-8 pb-3">
-                        <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
-                            Chargée de projet numérique / Gestionnaire des opérations / Webmestre</p>
+                        <p><strong>Tourisme Montérégie - 2007 to 2021</strong><br />
+                        Operations Manager | Multimedia integrator</p>
                         <ul>
-                            <li>Gestion et participation à 4 refontes de site web</li>
-                            <li>Intégration des contenus dans Wordpress et autre CMS</li>
-                            <li>Graphisme et mise en page de documents corporatifs</li>
-                            <li>Gestion des projets et des échéanciers dans Asana</li>
-                            <li>Création d’outils de travail pour les membres de l’équipe</li>
+                            <li>Implementation of a task management program (Asana) and management of projects and deadlines in collaboration with managers and employees</li>
+                            <li>Creation of collaborative work tools for team members</li>
+                            <li>Project management and integration of 4 website redesigns</li>
+                            <li>Integration of content into Wordpress or other CMS</li>
+                            <li>Graphic design and layout of corporate documents (annual report, Powerpoint presentation, etc.)</li>
                         </ul>
-                        <p class="py-5"><strong>DEC Techniques d'intégration multimédia</strong><br />
+                        <p class="py-3"><strong>The Web Developer Bootcamp</strong> by Colt Steele (63.5h)<br />
+                            Udemy, 2021</p>
+                        <p class="py-3"><strong>DEC Techniques d'intégration multimédia</strong><br />
                             Collège de Maisonneuve, 2006</p>
                     </div>
                     <div class="col-lg-4">
-                        <p class="fw-bold">Compétences</p>
+                        <p class="fw-bold">Strengths and skills</p>
                         <ul>
-                            <li>Minutieuse
-                            <li>Débrouillarde</li>
-                            <li>Diplomate</li>
-                            <li>Autodidacte</li>
-                            <li>Organisée et assidue</li>
-                            <li>Grande capacité d’adaptation</li>
-                            <li>Aptitude pour le contrôle-qualité</li>
+                            <li>Meticulous and aptitude for quality control</li>
+                            <li>Organized and diligent</li>
+                            <li>Resourceful and diplomat</li>
+                            <li>Self-taught and great ability to adapt</li>
                         </ul>
                     </div>
                 </div>
@@ -211,9 +205,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="contact">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3"><a id="contact"></a>Contact</h2>
-                    <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
-                        ensemble. Vous pouvez le faire via les médias sociaux ou le formulaire de contact ci-bas.</p>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Contact</h2>
+                    <p>Do not hesitate to get in touch with me for any question, project idea or to collaborate together. You can do this via social media or the contact form below.</p>
                     <ul class="nav list-unstyled display-5">
                         <li class="ms-3"><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a></li>
                         <li class="ms-3"><a href="https://www.linkedin.com/in/isabelle-sicotte/" target="_blank"><i
