@@ -151,7 +151,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <p class="card-text">Node.js, MongoDB, EJS, deployment on Heroku</p>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">Live link</a>
+                            <a href="https://djoo-app.herokuapp.com/" class="card-link" target="_blank"Live link</a>
                             <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
