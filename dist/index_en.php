@@ -41,7 +41,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Isabelle Sicotte | Intégratrice multimédia</title>
+    <title>Isabelle Sicotte | Web Integrator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -89,7 +89,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">Hello! I'm Isabelle</h1>
-                    <p class="lead fs-4">I am a <span class="accent">multimedia integrator</span> and I aspire to become a web developer.
+                    <p class="lead fs-4">I am a <span class="accent">web integrator</span> and I aspire to become a web developer.
                     I like cats, finding the missing&nbsp;;, puzzle games, but above all, <span class="accent">I love to learn</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
