@@ -176,7 +176,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">Experience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 to 2021</strong><br />
-                        Operations Manager | Multimedia integrator</p>
+                        Operations Manager | Web integrator</p>
                         <ul>
                             <li>Implementation of a task management program (Asana) and management of projects and deadlines in collaboration with managers and employees</li>
                             <li>Creation of collaborative work tools for team members</li>
@@ -242,7 +242,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
                         </div>
                         <div class="align-items-center mb-4">
-                            <button class="btn btn-blue btn-lg">Send</button>
+                            <button class="btn btn-mail btn-lg">Send</button>
                         </div>
                     </form>
                     <?php 

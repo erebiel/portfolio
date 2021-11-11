@@ -124,7 +124,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
                         <p>J'aime faire partie d’une équipe et sentir que j'y fait une diff&eacute;rence, que j'apporte quelque chose d'unique et d'essentiel. 
                             J'aime partager mon savoir, mais aussi apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre comment tout fonctionne, 
-                            c'est ce qui me fait tripper. Toujours en mode solution, j'aime trouver les bugs et les fautes d’ortographes.</p>
+                            c'est ce qui me fait tripper. Toujours en mode solution, j'aime trouver les bugs et les fautes d’orthographes.</p>
                     </p>
                 </div>
             </div>
@@ -177,7 +177,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">Exp&eacute;rience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
-                            Gestionnaire des op&eacute;rations | Int&eacute;gratrice multim&eacute;dia</p>
+                            Gestionnaire des op&eacute;rations | Int&eacute;gratrice web</p>
                         <ul>
                             <li>Implantation d'un programme de gestion de t&acirc;ches (Asana) et gestion des projets et des &eacute;ch&eacute;anciers en collaboration avec les gestionnaires et employ&eacute;s</li>
                             <li>Cr&eacute;ation d'outils de travail collaboratif pour les membres de l'&eacute;quipe</li>
