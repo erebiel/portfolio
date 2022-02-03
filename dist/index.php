@@ -65,13 +65,13 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <a class="nav-link active" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#apropos">&Agrave; propos</a>
+                        <a class="nav-link" href="#apropos">À propos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#realisations">R&eacute;alisations</a>
+                        <a class="nav-link" href="#realisations">Réalisations</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experience">Exp&eacute;rience</a>
+                        <a class="nav-link" href="#experience">Expérience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
@@ -83,14 +83,14 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             </div>
         </div>
     </nav>
-    
+
     <header>
         <div class="container pt-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">Salut, moi c'est Isabelle</h1>
-                    <p class="lead fs-4">Je suis <span class="accent">int&eacute;gratrice web</span> et j'aspire à devenir d&eacute;veloppeuse web. 
-                    J'aime les chats, trouver le&nbsp;; qui manque, les jeux d'&eacute;nigmes, mais surtout <span class="accent">j'aime&nbsp;apprendre</span>.</p>
+                    <p class="lead fs-4">Je suis <span class="accent">intégratrice web</span> et j'aspire à devenir développeuse web. 
+                    J'aime les chats, trouver le&nbsp;; qui manque, les jeux d'énigmes, mais surtout <span class="accent">j'aime&nbsp;apprendre</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
                         </li>
@@ -112,17 +112,17 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="apropos">
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3">&Agrave; propos</h2>
-                    <p>Mon int&eacute;r&ecirc;t pour le web remonte &agrave; l'apog&eacute;e d'Angelfire et Geocities. J'ai appris le HTML et le CSS avec l'aide de W3School 
-                        à l'&eacute;poque et j'ai construit mes premiers sites web qui ne sont pas dignes de se retrouver dans mon portfolio! 
-                        C'est tout de m&ecirc;me ce qui m'a pouss&eacute; vers une formation en <span class="accent">Techniques d'int&eacute;gration multim&eacute;dia</span> au Coll&egrave;ge de Maisonneuve.
-                        Dipl&ocirc;me en main, j'ai accumul&eacute; pr&egrave;s de <span class="accent">14 ans d'exp&eacute;rience</span> sur le milieu du travail en tant qu'int&eacute;gratrice web.</p>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">À propos</h2>
+                    <p>Mon intérêt pour le web remonte à l'apogée d'Angelfire et Geocities. J'ai appris le HTML et le CSS avec l'aide de W3School 
+                        à l'époque et j'ai construit mes premiers sites web qui ne sont pas dignes de se retrouver dans mon portfolio! 
+                        C'est tout de même ce qui m'a poussé vers une formation en <span class="accent">Techniques d'intégration multimédia</span> au Collège de Maisonneuve.
+                        Diplôme en main, j'ai accumulé près de <span class="accent">14 ans d'expérience</span> sur le milieu du travail en tant qu'intégratrice web.</p>
 
-                        <p>J'ai r&eacute;cemment suivi un bootcamp en ligne qui m'a permis de me mettre &agrave; jour dans le d&eacute;veloppement web. J'ai pu d&eacute;velopper un projet en 
-                            <span class="accent">Node.js</span>, r&eacute;viser mes notions en <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris &agrave; travailler avec 
+                        <p>J'ai récemment suivi un bootcamp en ligne qui m'a permis de me mettre à jour dans le développement web. J'ai pu développer un projet en 
+                            <span class="accent">Node.js</span>, réviser mes notions en <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris à travailler avec 
                             <span class="accent">GitHub, Bootstrap 5, MongoDB, et Express</span>.</p>
 
-                        <p>J'aime faire partie d’une équipe et sentir que j'y fait une diff&eacute;rence, que j'apporte quelque chose d'unique et d'essentiel. 
+                        <p>J'aime faire partie d’une équipe et sentir que j'y fait une différence, que j'apporte quelque chose d'unique et d'essentiel. 
                             J'aime partager mon savoir, mais aussi apprendre le plus que je peux de ceux qui m’entourent. Pour moi, apprendre comment tout fonctionne, 
                             c'est ce qui me fait tripper. Toujours en mode solution, j'aime trouver les bugs et les fautes d’orthographes.</p>
                     </p>
@@ -133,12 +133,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="realisations">
             <div class="container px-4 py-5">
                 <div class="row g-lg-5 py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3">R&eacute;alisations</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Réalisations</h2>
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">YelpCamp</h5>
-                            <p class="card-text">Node.js, MongoDB, Express, d&eacute;ploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, Express, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="https://young-wave-24039.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
@@ -149,7 +149,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <img src="images/project-djoo.jpg" class="card-img-top" alt="">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Djoo</h5>
-                            <p class="card-text">Node.js, MongoDB, Express, d&eacute;ploiement sur Heroku</p>
+                            <p class="card-text">Node.js, MongoDB, Express, déploiement sur Heroku</p>
                         </div>
                         <div class="card-body">
                             <a href="https://djoo-app.herokuapp.com/" class="card-link" target="_blank">Lien live</a>
@@ -174,31 +174,31 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         <section id="experience">
             <div class="container py-5">
                 <div class="row py-5">
-                    <h2 class="display-5 fw-bold lh-1 mb-3">Exp&eacute;rience</h2>
+                    <h2 class="display-5 fw-bold lh-1 mb-3">Expérience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
-                            Int&eacute;gratrice web</p>
+                            Intégratrice web</p>
                         <ul>
-                            <li>Implantation d'un programme de gestion de t&acirc;ches (Asana) et gestion des projets et des &eacute;ch&eacute;anciers en collaboration avec les gestionnaires et employ&eacute;s</li>
-                            <li>Cr&eacute;ation d'outils de travail collaboratif pour les membres de l'&eacute;quipe</li>
-                            <li>Gestion de projet et int&eacute;gration de 4 refontes de site web</li>
-                            <li>Cr&eacute;ation et implantation de sites web et microsites sous Wordpress</li>
-                            <li>Int&eacute;gration des contenus dans Wordpress ou autre CMS</li>
-                            <li>Graphisme et mise en page de documents corporatifs (rapport annuel, pr&eacute;sentation Powerpoint, etc.)</li>
+                            <li>Création et implantation de sites web et microsites sous Wordpress</li>
+                            <li>Intégration des contenus dans Wordpress ou autre CMS</li>
+                            <li>Gestion de projet et intégration de 4 refontes de site web</li>
+                            <li>Implantation d'un programme de gestion de tâches (Asana) et gestion des projets et des échéanciers en collaboration avec les gestionnaires et employés</li>
+                            <li>Création d'outils de travail collaboratif pour les membres de l'équipe</li>                           
+                            <li>Graphisme et mise en page de documents corporatifs (rapport annuel, présentation Powerpoint, etc.)</li>
                         </ul>
                         <p class="py-3"><strong>The Web Developer Bootcamp</strong> de Colt Steele (63,5h)<br />
                             Udemy, 2021</p>
 
-                        <p class="py-3"><strong>DEC Techniques d'int&eacute;gration multim&eacute;dia</strong><br />
-                            Coll&egrave;ge de Maisonneuve, 2006</p>
+                        <p class="py-3"><strong>DEC Techniques d'intégration multimédia</strong><br />
+                            Collège de Maisonneuve, 2006</p>
                     </div>
                     <div class="col-lg-4">
-                        <p class="fw-bold">Forces et comp&eacute;tences</p>
+                        <p class="fw-bold">Forces et compétences</p>
                         <ul>
-                            <li>Minutieuse et aptitude pour le contr&ocirc;le-qualit&eacute;</li>
-                            <li>Organis&eacute;e et assidue</li>
-                            <li>D&eacute;brouillarde et diplomate</li>
-                            <li>Autodidacte et grande capactit&eacute; d'adaptation</li>
+                            <li>Minutieuse et aptitude pour le contrôle-qualité</li>
+                            <li>Organisée et assidue</li>
+                            <li>Débrouillarde et diplomate</li>
+                            <li>Autodidacte et grande capactité d'adaptation</li>
                         </ul>
                     </div>
                 </div>
@@ -209,8 +209,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             <div class="container px-4 py-5">
                 <div class="row align-items-center g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3">Contact</h2>
-                    <p>N'h&eacute;sitez pas &agrave; entrer en contact avec moi pour toute question, id&eacute;e de projet ou pour collaborer
-                        ensemble. Vous pouvez le faire via les m&eacute;dias sociaux ou le formulaire de contact ci-bas.</p>
+                    <p>N'hésitez pas à entrer en contact avec moi pour toute question, idée de projet ou pour collaborer
+                        ensemble. Vous pouvez le faire via les médias sociaux ou le formulaire de contact ci-bas.</p>
                     <ul class="nav list-unstyled display-5">
                         <li class="ms-3"><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a></li>
                         <li class="ms-3"><a href="https://www.linkedin.com/in/isabelle-sicotte/" target="_blank"><i
@@ -222,7 +222,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                         <?php 
                             if($message_sent):
                         ?>
-                        <h3>Merci, votre message a bien &eacute;t&eacute; envoy&eacute;.</h3>
+                        <h3>Merci, votre message a bien été envoyé.</h3>
 
                         <?php 
                             else:

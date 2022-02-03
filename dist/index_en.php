@@ -35,7 +35,6 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'UA-121981593-1');
     </script>
     <meta charset="UTF-8">
@@ -83,14 +82,14 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             </div>
         </div>
     </nav>
-    <header>
 
+    <header>
         <div class="container pt-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
                     <h1 class="display-4 fw-bold lh-1">Hello! I'm Isabelle</h1>
                     <p class="lead fs-4">I am a <span class="accent">web integrator</span> and I aspire to become a web developer.
-                    I like cats, finding the missing&nbsp;;, puzzle games, but above all, <span class="accent">I love to learn</span>.</p>
+                    I like cats, finding the missing&nbsp;';', puzzle games, but above all, <span class="accent">I love to learn</span>.</p>
                     <ul class="nav list-unstyled display-6">
                         <li><a href="https://github.com/erebiel" target="_blank"><i class="bi bi-github"></i></a>
                         </li>
@@ -106,8 +105,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                 </div>
             </div>
         </div>
-
     </header>
+
     <main>
         <section id="about">
             <div class="container px-4 py-5">
@@ -115,7 +114,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">About me</h2>
                     <p>My interest in the web goes back to the height of Angelfire and Geocities. I learned HTML and CSS with the help of W3School 
                         at the time and I built my first websites that are not worthy of being in my portfolio! All the same, it was what pushed me 
-                        towards a formation in <span class="accent">Techniques d'int&eacute;gration multim&eacute;dia</span> at the Coll&egrave;ge de Maisonneuve. 
+                        towards a formation in <span class="accent">Techniques d'intégration multimédia</span> at the Collège de Maisonneuve. 
                         Diploma in hand, I have accumulated close to <span class="accent">14 years of experience</span> in the workplace as a web integrator.
                     </p>
                     <p>I recently took an online bootcamp which allowed me to get up to speed in web development. I was able to develop a project in <span class="accent">Node.js</span>, 
@@ -131,6 +130,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
 
         <section id="projects">
             <div class="container px-4 py-5">
+
                 <div class="row g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3">Projects</h2>
                     <div class="card col-lg-4 col-md-6">
@@ -144,6 +144,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
+
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-djoo.jpg" class="card-img-top" alt="">
                         <div class="card-body">
@@ -155,6 +156,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
+
                     <div class="card col-lg-4 col-md-6">
                         <img src="images/project-portfolio.jpg" class="card-img-top" alt="">
                         <div class="card-body">
@@ -176,13 +178,13 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">Experience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 to 2021</strong><br />
-                        Web integrator</p>
+                        Webmaster/Web integrator</p>
                         <ul>
-                            <li>Implementation of a task management program (Asana) and management of projects and deadlines in collaboration with managers and employees</li>
-                            <li>Creation of collaborative work tools for team members</li>
-                            <li>Project management and integration of 4 website redesigns</li>
                             <li>Creation and implantation of websites and microsites on Wordpress</li>
                             <li>Integration of content into Wordpress or other CMS</li>
+                            <li>Project management and integration of 4 website redesigns</li>
+                            <li>Implementation of a task management program (Asana) and management of projects and deadlines in collaboration with managers and employees</li>
+                            <li>Creation of collaborative work tools for team members</li>
                             <li>Graphic design and layout of corporate documents (annual report, Powerpoint presentation, etc.)</li>
                         </ul>
                         <p class="py-3"><strong>The Web Developer Bootcamp</strong> by Colt Steele (63.5h)<br />
@@ -257,8 +259,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
     <div id="footer" class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
             <div class="col-md-4 d-flex align-items-center">
-
-                &copy; 2021 Isabelle Sicotte
+                &copy; 2022 Isabelle Sicotte
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
