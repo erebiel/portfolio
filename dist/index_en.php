@@ -124,6 +124,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     I like to share my knowledge, but also to learn as much as I can from those around me. 
                     For me, learning how everything works is what I really love. Always in solution mode, I like to find bugs and spelling mistakes.
                     </p>
+                    <p>Currently, I'm exploring: TailwindCSS, Vue, React, SASS/SCSS, Express, MongoDB, EJS, Node.JS</p>
                 </div>
             </div>
         </section>
@@ -134,9 +135,42 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                 <div class="row g-lg-5 py-5">
                     <h2 class="display-5 fw-bold lh-1 mb-3">Projects</h2>
                     <div class="card col-lg-4 col-md-6">
-                        <img src="images/project-yelpcamp.jpg" class="card-img-top" alt="">
+                        <a href="https://erebiel.ca/meet-landing-page" target="_blank"><img src="images/meet-landing-page.jpg" class="card-img-top" alt="Meet landing page - Frontendmentor.io"></a>
                         <div class="card-body">
-                            <h5 class="card-title fw-bold">YelpCamp</h5>
+                            <h5 class="card-title fw-bold">Meet landing page - Frontendmentor.io</h5>
+                            <p class="card-text">HTML5, CSS</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://erebiel.ca/meet-landing-page" class="card-link" target="_blank">Live link</a>
+                            <a href="https://github.com/erebiel/meet-landing-page" class="card-link" target="_blank">GitHub link</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 col-md-6">
+                        <a href="https://erebiel.ca/stat-preview-card" target="_blank"><img src="images/stat-preview-card.jpg" class="card-img-top" alt="Stat preview card - Frontendmentor.io"></a>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Stat preview card - Frontendmentor.io</h5>
+                            <p class="card-text">HTML5, CSS</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://erebiel.ca/stat-preview-card" class="card-link" target="_blank">Live link</a>
+                            <a href="https://github.com/erebiel/stat-preview-card" class="card-link" target="_blank">GitHub link</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 col-md-6">
+                        <a href="https://erebiel.ca/faq-accordion-card" target="_blank"><img src="images/faq-accordion-card.jpg" class="card-img-top" alt="FAQ accordion card - Frontendmentor.io"></a>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">FAQ accordion card - Frontendmentor.io</h5>
+                            <p class="card-text">HTML5, SCSS</p>
+                        </div>
+                        <div class="card-body">
+                            <a href="https://erebiel.ca/faq-accordion-card" class="card-link" target="_blank">Live link</a>
+                            <a href="https://github.com/erebiel/faq-accordion-card" class="card-link" target="_blank">GitHub link</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4 col-md-6">
+                        <a href="https://young-wave-24039.herokuapp.com/" target="_blank"><img src="images/project-yelpcamp.jpg" class="card-img-top" alt="YelpCamp (code-along)"></a>
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">YelpCamp (code-along)</h5>
                             <p class="card-text">Node.JS, MongoDB, EJS, deployment on Heroku</p>
                         </div>
                         <div class="card-body">
@@ -144,24 +178,11 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <a href="https://github.com/erebiel/yelpcamp" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
-
                     <div class="card col-lg-4 col-md-6">
-                        <img src="images/project-djoo.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5 class="card-title fw-bold">Djoo</h5>
-                            <p class="card-text">Node.js, MongoDB, EJS, deployment on Heroku</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="https://djoo-app.herokuapp.com/" class="card-link" target="_blank"Live link</a>
-                            <a href="https://github.com/erebiel/djoo" class="card-link" target="_blank">GitHub link</a>
-                        </div>
-                    </div>
-
-                    <div class="card col-lg-4 col-md-6">
-                        <img src="images/project-portfolio.jpg" class="card-img-top" alt="">
+                        <img src="images/project-portfolio.jpg" class="card-img-top" alt="Portfolio">
                         <div class="card-body">
                             <h5 class="card-title fw-bold">Portfolio</h5>
-                            <p class="card-text">HTML5, Bootstrap, SASS</p>
+                            <p class="card-text">HTML5, Bootstrap, SCSS</p>
                         </div>
                         <div class="card-body">
                             <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">GitHub link</a>
