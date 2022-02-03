@@ -126,7 +126,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     I like to share my knowledge, but also to learn as much as I can from those around me. 
                     For me, learning how everything works is what I really love. Always in solution mode, I like to find bugs and spelling mistakes.
                     </p>
-                    <p>Currently, I'm exploring: TailwindCSS, Vue, React, SASS/SCSS, Express, MongoDB, EJS, Node.JS</p>
+                    <p>Currently, I'm exploring: Tailwind CSS, Vue, React, SASS/SCSS, Express, MongoDB, EJS, Node.JS</p>
                 </div>
             </div>
         </section>
