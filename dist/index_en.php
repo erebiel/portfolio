@@ -116,7 +116,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <p>My interest in the web goes back to the height of Angelfire and Geocities. I learned HTML and CSS with the help of W3School 
                         at the time and I built my first websites that are not worthy of being in my portfolio! All the same, it was what pushed me 
                         towards a formation in <span class="accent">Techniques d'int&eacute;gration multim&eacute;dia</span> at the Coll&egrave;ge de Maisonneuve. 
-                        Diploma in hand, I have accumulated more than <span class="accent">13 years of experience</span> in the workplace as a web integrator and operations manager.
+                        Diploma in hand, I have accumulated close to <span class="accent">14 years of experience</span> in the workplace as a web integrator.
                     </p>
                     <p>I recently took an online bootcamp which allowed me to get up to speed in web development. I was able to develop a project in <span class="accent">Node.js</span>, 
                         revise my notions in <span class="accent">HTML5, CSS3 and JavaScript</span>. I also learned to work with <span class="accent">GitHub, Bootstrap 5, MongoDB, and Express</span>.</p>
@@ -176,11 +176,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">Experience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 to 2021</strong><br />
-                        Operations Manager | Web integrator</p>
+                        Web integrator</p>
                         <ul>
                             <li>Implementation of a task management program (Asana) and management of projects and deadlines in collaboration with managers and employees</li>
                             <li>Creation of collaborative work tools for team members</li>
                             <li>Project management and integration of 4 website redesigns</li>
+                            <li>Creation and implantation of websites and microsites on Wordpress</li>
                             <li>Integration of content into Wordpress or other CMS</li>
                             <li>Graphic design and layout of corporate documents (annual report, Powerpoint presentation, etc.)</li>
                         </ul>

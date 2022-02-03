@@ -83,8 +83,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
             </div>
         </div>
     </nav>
+    
     <header>
-
         <div class="container pt-5">
             <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center">
                 <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
@@ -106,8 +106,8 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                 </div>
             </div>
         </div>
-
     </header>
+
     <main>
         <section id="apropos">
             <div class="container px-4 py-5">
@@ -116,7 +116,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <p>Mon int&eacute;r&ecirc;t pour le web remonte &agrave; l'apog&eacute;e d'Angelfire et Geocities. J'ai appris le HTML et le CSS avec l'aide de W3School 
                         à l'&eacute;poque et j'ai construit mes premiers sites web qui ne sont pas dignes de se retrouver dans mon portfolio! 
                         C'est tout de m&ecirc;me ce qui m'a pouss&eacute; vers une formation en <span class="accent">Techniques d'int&eacute;gration multim&eacute;dia</span> au Coll&egrave;ge de Maisonneuve.
-                        Dipl&ocirc;me en main, j'ai accumul&eacute; plus de <span class="accent">13 ans d'exp&eacute;rience</span> sur le milieu du travail en tant qu'int&eacute;gratrice web et gestionnaire des op&eacute;rations.</p>
+                        Dipl&ocirc;me en main, j'ai accumul&eacute; pr&egrave;s de <span class="accent">14 ans d'exp&eacute;rience</span> sur le milieu du travail en tant qu'int&eacute;gratrice web.</p>
 
                         <p>J'ai r&eacute;cemment suivi un bootcamp en ligne qui m'a permis de me mettre &agrave; jour dans le d&eacute;veloppement web. J'ai pu d&eacute;velopper un projet en 
                             <span class="accent">Node.js</span>, r&eacute;viser mes notions en <span class="accent">HTML5, CSS3 et JavaScript</span>. J'ai appris &agrave; travailler avec 
@@ -177,11 +177,12 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                     <h2 class="display-5 fw-bold lh-1 mb-3">Exp&eacute;rience</h2>
                     <div class="col-lg-8 pb-3">
                         <p><strong>Tourisme Montérégie - 2007 à 2021</strong><br />
-                            Gestionnaire des op&eacute;rations | Int&eacute;gratrice web</p>
+                            Int&eacute;gratrice web</p>
                         <ul>
                             <li>Implantation d'un programme de gestion de t&acirc;ches (Asana) et gestion des projets et des &eacute;ch&eacute;anciers en collaboration avec les gestionnaires et employ&eacute;s</li>
                             <li>Cr&eacute;ation d'outils de travail collaboratif pour les membres de l'&eacute;quipe</li>
                             <li>Gestion de projet et int&eacute;gration de 4 refontes de site web</li>
+                            <li>Cr&eacute;ation et implantation de sites web et microsites sous Wordpress</li>
                             <li>Int&eacute;gration des contenus dans Wordpress ou autre CMS</li>
                             <li>Graphisme et mise en page de documents corporatifs (rapport annuel, pr&eacute;sentation Powerpoint, etc.)</li>
                         </ul>
@@ -259,8 +260,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
     <div id="footer" class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
             <div class="col-md-4 d-flex align-items-center">
-
-                &copy; 2021 Isabelle Sicotte
+                &copy; 2022 Isabelle Sicotte
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
