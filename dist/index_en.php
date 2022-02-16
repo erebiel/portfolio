@@ -190,7 +190,6 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <a href="https://github.com/erebiel/portfolio" class="card-link" target="_blank">GitHub link</a>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

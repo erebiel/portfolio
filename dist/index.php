@@ -222,7 +222,7 @@ if(isset($_POST['email']) && $_POST['email'] != ''){
                             <li>Minutieuse et aptitude pour le contrôle-qualité</li>
                             <li>Organisée et assidue</li>
                             <li>Débrouillarde et diplomate</li>
-                            <li>Autodidacte et grande capactité d'adaptation</li>
+                            <li>Autodidacte et grande capacité d'adaptation</li>
                         </ul>
                     </div>
                 </div>
